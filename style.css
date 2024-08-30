@@ -1,0 +1,65 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: snow;
+}
+
+#top {
+  margin: 0;
+  width: 100%;
+}
+
+.sticky-header-container {
+  position: sticky;
+  top: 0;
+  margin: 0px;
+  padding: 8px;
+  width: 100%;
+  height: 80px;
+  background-color: snow;
+  border-bottom: 1px solid darkslategray;
+}
+
+header {
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+#content {
+  margin: 8px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li::marker {
+  content: "- ";
+  font-size: 90%;
+}
+
+.indent {
+  text-indent: -0.5em;
+  padding-left: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .sticky-header-container {
+    height: 70px;
+  }
+
+  header {
+    font-size: 35px;
+  }
+
+  ul {
+    padding-left: 10px;
+  }
+}
+
