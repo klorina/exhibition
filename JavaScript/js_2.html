@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>JavaScriptによる通信(API)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- フォント読み込み -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,14 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
     <!-- フォント読み込み 終わり -->
     <style>
+      *, *::after, *::before {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
       body {
-        padding: 0;
-        margin: 10px;
-        width: calc(100vw - 20.1px);
+        margin: 0;
+        padding: 10px;
+        width: 100%;
         font-size: 18px;
         text-size-adjust: 100%;
         line-height: 1.4;
-        font-family: 'Noto Serif JP', serif;
+        font-family: 'Noto Serif JP', sans-serif;
         -webkit-font-smoothing: antialiased;
         overflow-wrap: break-word;
       }
