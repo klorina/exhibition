@@ -20,7 +20,8 @@ const editpage = (ip) => {
 
 const makePage = async (ip) => {
   const file = await fetch("js_2.json")
-  const article = file[choice(ip, 0)][choice(ip, 1)]
+  const json_dat = file.json
+  const article = json_dat[choice(ip, 0)][choice(ip, 1)]
   let words_map = new Map();
   Object.keys(article.Words).forEach((key, idx) => {
     words_map.set(key, article.Words[key][choice(ip, 15 - idx)])
