@@ -3,11 +3,11 @@ const content = document.getElementById("content");
 const process = async () => {
   const param = new URLSearchParams(document.location.search);
   const eip = param.get("emu");
-  const cond = eip == null || !(/(\d{1,3}\.){3}\d{1,3}/.test(eip)) //emuがnull||正しくないIPアドレスの時
+  const cond = eip == null || !(/(\d{1,3}\.){3}\d{1,3}/.test(eip)); //emuがnull||正しくないIPアドレスの時
   if (cond) {
-    const res = await fetch("https://ipinfo.io?callback")
-    const json = await res.json()
-    editpage(json.ip)
+    const res = await fetch("https://ipinfo.io?callback");
+    const json = await res.json();
+    editpage(json.ip);
   } else {
     editpage(eip);
   }
@@ -19,29 +19,29 @@ const editpage = (ip) => {
 }
 
 const makePage = async (ip) => {
-  const file = await fetch("js_2.json")
-  const json_dat = file.json
-  const article = json_dat[choice(ip, 0)][choice(ip, 1)]
+  const file = await fetch("./js_2.json");
+  const json_dat = await file.json();
+  const article = json_dat[choice(ip, 0)][choice(ip, 1)];
   let words_map = new Map();
   Object.keys(article.Words).forEach((key, idx) => {
-    words_map.set(key, article.Words[key][choice(ip, 15 - idx)])
+    words_map.set(key, article.Words[key][choice(ip, 15 - idx)]);
   })
-  words_map.set("?_IP", ip)
-  const words = Object.fromEntries(words_map)
+  words_map.set("?_IP", ip);
+  const words = Object.fromEntries(words_map);
   let cont = article.Content;
   Object.keys(words).forEach((key) => {
-    cont = cont.map((prd) => prd.replace(key, words[key]))
+    cont = cont.map((prd) => prd.replace(key, words[key]));
   })
-  const a_cont = cont
-  addTitle(article.Title)
+  const a_cont = cont;
+  addTitle(article.Title);
   a_cont.forEach((paradigm) => {
-    addLine(paradigm)
+    addLine(paradigm);
   });
 }
 
 const choice = (ip, idx) => {
-  const ip_num = ip.split('.')[Math.floor(idx/4)]
-  return Math.floor(ip_num/Math.pow(4, 3 - idx % 4)) % 4
+  const ip_num = ip.split('.')[Math.floor(idx/4)];
+  return Math.floor(ip_num/Math.pow(4, 3 - idx % 4)) % 4 ;
 }
 
 const addTitle = (title) => {
