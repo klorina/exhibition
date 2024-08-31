@@ -6,7 +6,7 @@
     <!-- フォント読み込み -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <!-- フォント読み込み 終わり -->
     <style>
       *, *::after, *::before {
@@ -20,7 +20,7 @@
         font-size: 18px;
         text-size-adjust: 100%;
         line-height: 1.4;
-        font-family: 'Noto Serif JP', sans-serif;
+        font-family: 'Noto Serif JP', serif;
         -webkit-font-smoothing: antialiased;
         overflow-wrap: break-word;
       }
@@ -31,8 +31,30 @@
       }
       .content {
         display: flex;
+        flex-direction: column;
         margin: 0px auto;
         max-width: 30em;
+      }
+      h1 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 400;
+        border-bottom: 1px solid lightgray;
+        display: block;
+      }
+      p {
+        margin: 5px 0;
+        text-indent: 0.5em;
+        line-height: 1.5;
+      }
+      code {
+        margin: 1px;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        padding: 0 1px;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 90%;
       }
       .footer {
         margin: 100px 0px;

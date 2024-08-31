@@ -1,0 +1,81 @@
+[
+  [
+    { "Title": "test_0", 
+      "Words": {},
+      "Content": [
+        ""
+      ]
+    },
+    { "Title": "test_1", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_2", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_3", 
+      "Words": {},
+      "Content": []
+    }
+  ],
+  [
+    { "Title": "test_4", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_5", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_6", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_7", 
+      "Words": {},
+      "Content": []
+    }
+  ],
+  [
+    { "Title": "test_8", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_9", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_A", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_B", 
+      "Words": {},
+      "Content": []
+    }
+  ],
+  [
+    { "Title": "test_C", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_D", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "test_E", 
+      "Words": {},
+      "Content": []
+    },
+    { "Title": "15番目", 
+      "Words": {"?_w1" : ["1", "2", "3", "4"], "?_w2" : ["A", "B", "C", "D"]},
+      "Content": [
+        "このページの構成を解説します｡",
+        "トップページにもあった通り､ipinfo.ioというものを用いて､<br>IPアドレスというものを取得しています｡<br>ここで重要なのはIPアドレスの意味ではなく､<br>PCによって(?)それぞれ違う値になっていることです｡<br>この性質によって､見る人によっては<br>違う文章が出るようになっています｡(正しい使い方ではない)",
+        "具体的な実装は､現在のIPアドレス(<code>?_IP</code>)の数を､<br>16などで割った余りによって文章や単語を変化させています｡<br>下のemulate欄に､<code>15.0.0.0</code>などを入れるとわかりやすいです｡",
+        "単語1 : ?_w1([1, 2, 3, 4]のどれか), 単語2 : ?_w2([A, B, C, D]のどれか)"
+      ]
+    }
+  ]
+]
