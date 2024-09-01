@@ -1,80 +1,196 @@
 [
   [
-    { "Title": "test_0", 
+    { "Title": "Initial", 
       "Words": {},
       "Content": [
-        ""
+        "0番目｡<br>最初｡<br><code>0.0.0.0</code>｡<br>全て｡"
       ]
     },
-    { "Title": "test_1", 
-      "Words": {},
-      "Content": []
+    { "Title": "魔法の喫茶店", 
+      "Words": {
+        "?_furniture_adj" : {"using" : 15, "word" : [
+          "温かみのある",
+          "<span class=\"edited\" title=\"edited\">慣れ親しんだ</span>",
+          "<span class=\"edited\" title=\"edited\">ちょっとイイ感じの</span>",
+          "<span class=\"edited\" title=\"edited\">懐かしいような</span>"]
+        },
+        "?_furniture" : {"using" : 15, "word" : [
+          "木製の家具",
+          "<span class=\"edited\" title=\"edited\">ブリキの家具</span>",
+          "<span class=\"edited\" title=\"edited\">アンティークソファ</span>",
+          "<span class=\"edited\" title=\"edited\">ベントウッドチェア</span>"]
+        },
+        "?_guest_adj" : {"using" : 14, "word" : [
+          "町に引っ越してきたばかりの",
+          "<span class=\"edited\" title=\"edited\">新しい仕事に就いた</span>",
+          "<span class=\"edited\" title=\"edited\">大学生になったばかりの</span>",
+          "<span class=\"edited\" title=\"edited\">新しい会社を立ち上げた</span>"]
+      },
+        "?_guest" : {"using" : 14, "word" : ["ミカ", "<span class=\"edited\" title=\"edited\">アミ</span>", "<span class=\"edited\" title=\"edited\">ユイ</span>", "<span class=\"edited\" title=\"edited\">リオ</span>"]},
+        "?_hallucination" : {"using" : 14, "word" : [
+          "目の前に浮かぶ淡い紫色の霧が､次第に形を作り出し､<br>彼女の過去や未来の出来事が映し出されるのです｡<br>それはまるで夢の中にいるような感覚でした｡<br>彼女は自分が高校時代に<br>失くしてしまった友人との再会や､<br>未来の仕事で成功する姿を?_halluci_word光に<br>包まれて目の当たりにしました｡",
+          "<span class=\"edited\" title=\"edited\">甘い香りから次々とイメージが出てきて､<br>彼女の過去や未来の出来事が映し出されるのです｡<br>それはまるで夢の中にいるような感覚でした｡<br>彼女は新しい仲間との出会いや､<br>今の仕事で成功する姿を?_halluci_word光に<br>包まれて目の当たりにしました｡</span>",
+          "<span class=\"edited\" title=\"edited\">?_halluci_word光に照らされた?_coffeeの表面に､<br>ラテアートのような模様が現れて､<br>家族や友達の顔と一緒に激励の言葉が添えられていました｡<br>声も聞こえそうな位､本当にそこにいるような感覚でした｡</span>",
+          "<span class=\"edited\" title=\"edited\">?_coffeeは体の隅々まで温めて､少しうとうとさせましたが､<br>気を張って目を覚ますと､周りが?_halluci_wordの光に包まれていて､<br>まるで夢の中にいるような感覚でした｡<br>もう少し遠くを見渡すと､<br>自分の会社が世界中に発展しているのが見えました｡その中で､<br>家族や友達と一緒に穏やかに暮らす姿を目の当たりにしました｡</span>"]},
+        
+        "?_making" : {"using" : 13, "word" : [
+          "金色に輝く特別な豆を使った<br>?_coffeeを淹れ始めました｡",
+          "<span class=\"edited\" title=\"edited\">カップに細かく分けたチョコレートを入れて､<br>太陽の温かみ入りのミルクを加えました｡</span>",
+          "<span class=\"edited\" title=\"edited\">カップに澄んだエスプレッソを淹れて､<br>純白の牛から取れるホワイトミルクをゆっくり加えました｡</span>",
+          "<span class=\"edited\" title=\"edited\">チョコレート製の特殊な豆を使ったエスプレッソを淹れて､<br>サトウキビを食べて育った牛から取れる､シュガーミルクを<br>繊細な割合で加えました｡</span>"]
+        },
+        "?_halluci_word" : {"using" : 13, "word" : ["金色の", "<span class=\"edited\" title=\"edited\">太陽の</span>", "<span class=\"edited\" title=\"edited\">純白の</span>", "<span class=\"edited\" title=\"edited\">甘い</span>"]},
+        "?_coffee" : {"using" : 13, "word" : ["コーヒー", "<span class=\"edited\" title=\"edited\">ココア</span>", "<span class=\"edited\" title=\"edited\">ラテ</span>", "<span class=\"edited\" title=\"edited\">モカ</span>"]}
+      },
+      "Content": [
+        "<p>ある静かな町に､見た目は普通の喫茶店がありました｡<br>その名も「シンフォニー」｡<br>でも､この店には普通の喫茶店とは違う秘密がありました｡</p>",
+        "<p>店内は?_furniture_adj?_furnitureと､<br>深い緑色のカーテンが落ち着いた雰囲気を醸し出していました｡<br>店の角には古びた紅い本棚があり､<br>棚には古い書物が並んでいました｡<br>常連客が多く､店主のマスターは､<br>誰に対しても温かい笑顔で優しく接することで評判でした｡<br>しかし､そのマスターが作るコーヒーやケーキには､ちょっとした<br>特別な力が宿っていると言われていました｡</p>",
+      "<p>ある日､?_guest_adj若い女性､<br>?_guestが「シンフォニー」に足を踏み入れました｡<br>彼女は新しい環境に慣れるための息抜きが欲しかったのです｡<br>カウンターに座り､マスターに<br>「スペシャリティ?_coffeeを一杯」と頼みました｡<br>マスターは静かに微笑みながら､<br>?_making</p>",
+        "<p>その?_coffeeを飲むと､?_guestは驚くべき体験をしました｡<br>?_hallucination</p>",
+        "<p>?_coffeeが終わると､?_guestは目を覚まし､現実に戻りました｡<br>マスターは静かに<br>「お楽しみいただけたようで良かったです」と言いました｡<br>?_guestはその言葉を聞いて､<br>心の中で何かが変わったことを感じました｡<br>彼女は自分の未来を信じる力を得たようでした｡</p>",
+        "<p>その後､?_guestは町での生活を楽しみ､<br>未来に向けて力強く歩んでいきました｡<br>「シンフォニー」の魔法の?_coffeeは､<br>彼女だけでなく､多くの人々に希望と勇気を与えていました｡<br>どこかで誰かが新たな一歩を踏み出そうとしているとき､<br>この喫茶店の魔法は静かに働き続けているのです｡</p>",
+        "<p>そして「シンフォニー」は､今日も静かに<br>その古びたドアを開けて､<br>次の素敵な<br>物語を待ち続けています｡</p>",
+        "<span class=\"graytext sans\">作: ChatGPT(改変あり)</span>"
+      ]
     },
-    { "Title": "test_2", 
-      "Words": {},
-      "Content": []
+    { "Title": "ダンス", 
+      "Words": {
+        "?_dance_1" : {"using" : 15, "word" : ["ﾍ(￣ω￣ﾍ)", "┗(＾0＾)┓", "～(´･ω･`～)", "└(￣＾￣ )┐"]},
+        "?_dance_2" : {"using" : 15, "word" : ["(ﾉ￣ω￣)ﾉ", "┏(＾0＾)┛", "(～´･ω･`)～", "┌( ￣＾￣)┘"]},
+        "?_sleep" : {"using" : 14, "word" : ["( ˘ω˘ )", "( ~－ω－~)", "(ーー*)", "( ˇωˇ )"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_dance_1ずん<br>?_dance_2ちゃ<br>?_dance_1?_dance_2?_dance_1?_dance_2ずんちゃずんちゃ......<br><br>?_sleepｽﾔｧ......</span>"
+      ]
     },
-    { "Title": "test_3", 
-      "Words": {},
-      "Content": []
+    { "Title": "ちゃぶ台", 
+      "Words": {
+        "?_chabu" : {"using" : 15, "word" : ["(ﾉ ﾟρﾟ)ﾉ ┫:･'.::･┻┻:･'.::", "(ﾉ｀△´)ﾉ ┫:･'∵:.┻┻:･'.:∵", "(ﾉ≧∇≦)ﾉ ⌒┫:~圀･:┻：･'~團｡::┠'.", "ヽ( ´ｰ`)θミ☆＾≡≡≡≡≡┻━┻)´0｀)/"]}
+      },
+      "Content": [
+        {"type" : "begin", "tag" : "div", "attribute" : {"class" : "brank"}},
+        "<span class=\"aahub_light\">ｵﾘｬ?_chabu</span>",
+        {"type" : "end", "tag" : "div"},
+        "何？？？"
+      ]
     }
   ],
   [
-    { "Title": "test_4", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!", 
+      "Words": {
+        "?_dance_1" : {"using" : 15, "word" : ["ﾍ(￣ω￣ﾍ)", "┗(＾0＾)┓", "～(´･ω･`～)", "└(￣＾￣ )┐"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_dance_1</span>"
+      ]
     },
-    { "Title": "test_5", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!2", 
+      "Words": {
+        "?_dance_2" : {"using" : 15, "word" : ["(ﾉ￣ω￣)ﾉ", "┏(＾0＾)┛", "(～´･ω･`)～", "┌( ￣＾￣)┘"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_dance_2</span>"
+      ]
     },
-    { "Title": "test_6", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!3", 
+      "Words": {
+        "?_sleep" : {"using" : 15, "word" : ["( ˘ω˘ )", "( ~－ω－~)", "(ーー*)", "( ˇωˇ )"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_sleep</span>"
+      ]
     },
-    { "Title": "test_7", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!4", 
+      "Words": {
+        "?_cry" : {"using" : 15, "word" : ["<(＿　＿)>", "(#_<-)", "(˘･_･˘)", "(T_T)"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_cry</span>"
+      ]
     }
   ],
   [
-    { "Title": "test_8", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!5", 
+      "Words": {
+        "?_happy" : {"using" : 15, "word" : ["ヾ(≧▽≦*)o", "(～￣▽￣)～", "(〃￣︶￣)人(￣︶￣〃)", "＼(((￣(￣(￣▽￣)￣)￣)))／"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_happy</span>"
+      ]
     },
-    { "Title": "test_9", 
-      "Words": {},
-      "Content": []
+    { "Title": "本", 
+      "Words": {
+        "?_color" : {"using" : 15, "word" : ["紺青の", "黒橡の", "白茶の", "紅い"]},
+        "?_smell" : {"using" : 15, "word" : ["驟雨の", "黴びた", "燻った", "鉄の"]}
+      },
+      "Content": [
+        {"type" : "begin", "tag" : "div", "attribute" : {"class" : "gray"}},
+        "私の名前は田中健二｡普通のサラリーマンです｡<br>普段は書類を整理し､会議に出席し､<br>家に帰って家族と過ごす日常を送っています｡<br>そんな私が､ある晩､決して忘れられない体験をしました｡",
+        "その日は仕事が遅くなり､家に帰ると<br>夜も深まっていました｡外は雨が降りしきり､<br>街灯の下でさえもぼんやりとした暗闇に包まれていました｡<br>帰り道の途中､ふと寄り道をすることにしました｡<br>近くの古びた小さな書店に立ち寄ったのです｡",
+        "店内に入ると､古書の匂いと静寂が広がっていました｡<br>奥の方に不気味な雰囲気を放つ､<span class=\"edited\" title=\"edited\">薄汚れた?_color表紙の､</span><br>一冊の本が目に留まりました｡<br>タイトルも著者も不明で､表紙はぼろぼろでしたが､<br>何故か手に取らずにはいられませんでした｡<br>レジでその本を購入し､家路に着きました｡",
+        "その晩､ベッドに入ってからも<span class=\"edited\" title=\"edited\">例の?_color</span>本のことが頭から<br>離れませんでした｡<br><span class=\"edited\" title=\"edited\">暗がりの中で､?_color表紙から?_smell臭いがしました｡</span><br>好奇心に駆られ､薄暗い部屋でその本を開いてみました｡<br><span class=\"edited\" title=\"edited\">乾いた</span>ページを<span class=\"edited\" title=\"edited\">一つひとつ</span>めくるごとに､<br>私の胸には不安が広がっていきました｡<br>そこには､私が書いた覚えのない文章が､<span class=\"edited\" title=\"edited\">私の筆跡で</span><br>びっしりと記されていたのです｡<br>内容は私の家族や職場､さらには私が将来直面するであろう<br>出来事まで詳細に記されていました｡",
+        "心臓が激しく打ち､冷や汗が背中に流れました｡<br>次第にその本がまるで生きているかのように感じられ､<br>ページをめくる手が震えました｡<br>まるで何かの警告のようで､私はその本を無理やり閉じ､<br>隠すことにしました｡",
+        "翌朝､本がどこに置いてあったかも思い出せず､<br>家族や同僚にもその話をする勇気はありませんでした｡<br>ただ､あの日以来､私は何となくその本の予言に<br>翻弄されているような気がしてなりません｡<br>これが夢であったのか現実であったのか､<br>私には分かりませんが､<br>確かにあの夜の出来事は､私の心に深く刻まれています｡",
+        "私はただの普通のサラリーマンです｡",
+        "<span class=\"wideline\">しかし､その<span class=\"edited\" title=\"edited\">?_color</span>本との出会いが､<br>私の平穏な日常を<br>大きく変えてしまったのです｡",
+        {"type" : "end", "tag" : "div"},
+        "<span class=\"sans graytext\">この文章はChatGPTによって生成されました｡改変済み</span>"
+      ]
     },
-    { "Title": "test_A", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!6", 
+      "Words": {
+        "?_anger" : {"using" : 15, "word" : ["￣へ￣", "( ˘︹˘ )", "（︶^︶）", "(╯▔皿▔)╯"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_anger</span>"
+      ]
     },
-    { "Title": "test_B", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!7",
+      "Words": {
+        "?_cute_1" : {"using" : 15, "word" : ["(￣y▽,￣)╭", " §(*￣▽￣*)§", "(*≧︶≦))(￣▽￣* )ゞ", "(○｀ 3′○)"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_cute_1</span>"
+      ]
     }
   ],
   [
-    { "Title": "test_C", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!8", 
+      "Words": {
+        "?_cute_2" : {"using" : 15, "word" : ["(. ❛ ᴗ ❛.)", "(。・ω・。)", "(>'-'<)", "=￣ω￣="]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_cute_2</span>"
+      ]
     },
-    { "Title": "test_D", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!9", 
+      "Words": {
+        "?_cute_3" : {"using" : 15, "word" : ["〜(￣▽￣〜)", "(￣﹃￣)", "(/ω＼*)……… (/ω•＼*)", "( ﹁ ﹁ ) ~→"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_cute_3</span>"
+      ]
     },
-    { "Title": "test_E", 
-      "Words": {},
-      "Content": []
+    { "Title": "未完成!!!10", 
+      "Words": {
+        "?_cute_4" : {"using" : 15, "word" : ["ヽ(￣ω￣(￣ω￣〃)ゝ", "( ⓛ ω ⓛ *)", "( ͡° ͜ʖ ͡°)", "( ‵▽′)ψ"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_cute_4</span>"
+      ]
     },
     { "Title": "15番目", 
-      "Words": {"?_w1" : ["1", "2", "3", "4"], "?_w2" : ["A", "B", "C", "D"]},
+      "Words": {
+        "?_w1" : {"using" : 15, "word" : ["1", "2", "3", "4"]},
+        "?_w2" : {"using" : 14, "word" : ["A", "B", "C", "D"]}
+      }, 
       "Content": [
+        {"type" : "begin", "tag" : "div", "attribute" : {"class" : "sans"}},
         "このページの構成を解説します｡",
         "トップページにもあった通り､ipinfo.ioというものを用いて､<br>IPアドレスというものを取得しています｡<br>ここで重要なのはIPアドレスの意味ではなく､<br>PCによって(?)それぞれ違う値になっていることです｡<br>この性質によって､見る人によっては<br>違う文章が出るようになっています｡(正しい使い方ではない)",
         "具体的な実装は､現在のIPアドレス(<code>?_IP</code>)の数を､<br>16などで割った余りによって文章や単語を変化させています｡<br>下のemulate欄に､<code>15.0.0.0</code>などを入れるとわかりやすいです｡",
-        "単語1 : ?_w1([1, 2, 3, 4]のどれか), 単語2 : ?_w2([A, B, C, D]のどれか)"
+        "単語1 : <span class=\"edited\" title=\"vary\">?_w1</span>([1, 2, 3, 4]のどれか), 単語2 : <span class=\"edited\" title=\"vary\">?_w2</span>([A, B, C, D]のどれか)",
+        {"type" : "end", "tag" : "div"}
       ]
     }
   ]

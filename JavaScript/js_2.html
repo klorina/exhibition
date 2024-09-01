@@ -1,78 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <title>JavaScriptによる通信(API)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- フォント読み込み -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Sans+JP:wght@200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <!-- フォント読み込み 終わり -->
-    <style>
-      *, *::after, *::before {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-      }
-      body {
-        margin: 0;
-        padding: 10px;
-        width: 100%;
-        font-size: 18px;
-        text-size-adjust: 100%;
-        line-height: 1.4;
-        font-family: 'Noto Serif JP', serif;
-        -webkit-font-smoothing: antialiased;
-        overflow-wrap: break-word;
-      }
-      @media screen and (max-width : 480px) {
-        body {
-          font-size: 16px;
-        }
-      }
-      .content {
-        display: flex;
-        flex-direction: column;
-        margin: 0px auto;
-        max-width: 30em;
-      }
-      h1 {
-        text-align: center;
-        font-size: 35px;
-        font-weight: 400;
-        border-bottom: 1px solid lightgray;
-        display: block;
-      }
-      p {
-        margin: 5px 0;
-        text-indent: 0.5em;
-        line-height: 1.5;
-      }
-      code {
-        margin: 1px;
-        background-color: whitesmoke;
-        border: 1px solid lightgray;
-        border-radius: 3px;
-        padding: 0 1px;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 90%;
-      }
-      .footer {
-        margin: 100px 0px;
-        width: 100%;
-        border-top: 1px solid black;
-      }
-      .inputIP {
-        margin: 50px 0px 0px 0px;
-        font-family: sans-serif;
-        display: flex;
-      }
-      .IPcont, input, button{
-        font-family: inherit;
-      }
-      .IP {
-        width: 4em;
-      }
-    </style>
+    <link href="js_2.css" rel="stylesheet">
   </head>
   <body>
     <div id="content" class="container content"></div> <!-- ここに内容が挿入される -->
@@ -87,6 +23,7 @@
         <div class="IPcont">.</div>
         <div class="IPcont"><input id="IP_4" class="IP" type="number" placeholder="0~255" min="0" max="255" value="0"></div>
         <div class="IPcont"><button type="submit" onclick="go()">go</button></div>
+        <div class="IPcont"><button type="submit" onclick="rand()">random</button></div>
       </div>
     </footer>
     <script src="js_2.js"></script>
