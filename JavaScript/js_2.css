@@ -13,7 +13,23 @@ body {
   font-weight: 430;
   -webkit-font-smoothing: antialiased;
   overflow-wrap: break-word;
-}
+  background-color: whitesmoke;
+  animation: fade 1.2s;
+} 
+@keyframes fade {
+  0% {
+    opacity: 0;
+    background-color: white;
+  }
+  15% {
+    opacity: 0;
+    background-color: white;
+  }
+  100% {
+    opacity: 1;
+    background-color: whitesmoke;
+  }
+} 
 @media screen and (max-width : 480px) {
   body {
     font-size: 16px;
@@ -91,7 +107,7 @@ div.gray {
   font-family: sans-serif;
   display: flex;
 }
-.IPcont, input, button{
+.IPcont, div, input, button{
   font-family: inherit;
 }
 .IP {
