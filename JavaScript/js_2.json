@@ -76,7 +76,7 @@
     }
   ],
   [
-    { "Title": "未完成!!!", 
+    { "Title": "顔文字!!!", 
       "Words": {
         "?_dance_1" : {"using" : 15, "word" : ["ﾍ(￣ω￣ﾍ)", "┗(＾0＾)┓", "～(´･ω･`～)", "└(￣＾￣ )┐"]}
       },
@@ -84,38 +84,12 @@
         "<span class=\"wideline aahub_light\">?_dance_1</span>"
       ]
     },
-    { "Title": "未完成!!!2", 
+    { "Title": "顔文字!!!2", 
       "Words": {
         "?_dance_2" : {"using" : 15, "word" : ["(ﾉ￣ω￣)ﾉ", "┏(＾0＾)┛", "(～´･ω･`)～", "┌( ￣＾￣)┘"]}
       },
       "Content": [
         "<span class=\"wideline aahub_light\">?_dance_2</span>"
-      ]
-    },
-    { "Title": "未完成!!!3", 
-      "Words": {
-        "?_sleep" : {"using" : 15, "word" : ["( ˘ω˘ )", "( ~－ω－~)", "(ーー*)", "( ˇωˇ )"]}
-      },
-      "Content": [
-        "<span class=\"wideline aahub_light\">?_sleep</span>"
-      ]
-    },
-    { "Title": "未完成!!!4", 
-      "Words": {
-        "?_cry" : {"using" : 15, "word" : ["<(＿　＿)>", "(#_<-)", "(˘･_･˘)", "(T_T)"]}
-      },
-      "Content": [
-        "<span class=\"wideline aahub_light\">?_cry</span>"
-      ]
-    }
-  ],
-  [
-    { "Title": "未完成!!!5", 
-      "Words": {
-        "?_happy" : {"using" : 15, "word" : ["ヾ(≧▽≦*)o", "(～￣▽￣)～", "(〃￣︶￣)人(￣︶￣〃)", "＼(((￣(￣(￣▽￣)￣)￣)))／"]}
-      },
-      "Content": [
-        "<span class=\"wideline aahub_light\">?_happy</span>"
       ]
     },
     { "Title": "本", 
@@ -137,7 +111,33 @@
         "<span class=\"sans graytext\">この文章はChatGPTによって生成されました｡改変済み</span>"
       ]
     },
-    { "Title": "未完成!!!6", 
+    { "Title": "顔文字!!!3", 
+      "Words": {
+        "?_sleep" : {"using" : 15, "word" : ["( ˘ω˘ )", "( ~－ω－~)", "(ーー*)", "( ˇωˇ )"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_sleep</span>"
+      ]
+    }
+  ],
+  [
+    { "Title": "顔文字!!!4", 
+      "Words": {
+        "?_cry" : {"using" : 15, "word" : ["<(＿　＿)>", "(#_<-)", "(˘･_･˘)", "(T_T)"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_cry</span>"
+      ]
+    },
+    { "Title": "顔文字!!!5", 
+      "Words": {
+        "?_happy" : {"using" : 15, "word" : ["ヾ(≧▽≦*)o", "(～￣▽￣)～", "(〃￣︶￣)人(￣︶￣〃)", "＼(((￣(￣(￣▽￣)￣)￣)))／"]}
+      },
+      "Content": [
+        "<span class=\"wideline aahub_light\">?_happy</span>"
+      ]
+    },
+    { "Title": "顔文字!!!6", 
       "Words": {
         "?_anger" : {"using" : 15, "word" : ["￣へ￣", "( ˘︹˘ )", "（︶^︶）", "(╯▔皿▔)╯"]}
       },
@@ -145,7 +145,7 @@
         "<span class=\"wideline aahub_light\">?_anger</span>"
       ]
     },
-    { "Title": "未完成!!!7",
+    { "Title": "顔文字!!!7",
       "Words": {
         "?_cute_1" : {"using" : 15, "word" : ["(￣y▽,￣)╭", " §(*￣▽￣*)§", "(*≧︶≦))(￣▽￣* )ゞ", "(○｀ 3′○)"]}
       },
@@ -155,7 +155,7 @@
     }
   ],
   [
-    { "Title": "未完成!!!8", 
+    { "Title": "顔文字!!!8", 
       "Words": {
         "?_cute_2" : {"using" : 15, "word" : ["(. ❛ ᴗ ❛.)", "(。・ω・。)", "(>'-'<)", "=￣ω￣="]}
       },
@@ -163,7 +163,7 @@
         "<span class=\"wideline aahub_light\">?_cute_2</span>"
       ]
     },
-    { "Title": "未完成!!!9", 
+    { "Title": "顔文字!!!9", 
       "Words": {
         "?_cute_3" : {"using" : 15, "word" : ["〜(￣▽￣〜)", "(￣﹃￣)", "(/ω＼*)……… (/ω•＼*)", "( ﹁ ﹁ ) ~→"]}
       },
@@ -171,7 +171,7 @@
         "<span class=\"wideline aahub_light\">?_cute_3</span>"
       ]
     },
-    { "Title": "未完成!!!10", 
+    { "Title": "顔文字!!!10", 
       "Words": {
         "?_cute_4" : {"using" : 15, "word" : ["ヽ(￣ω￣(￣ω￣〃)ゝ", "( ⓛ ω ⓛ *)", "( ͡° ͜ʖ ͡°)", "( ‵▽′)ψ"]}
       },
@@ -188,7 +188,7 @@
         {"type" : "begin", "tag" : "div", "attribute" : {"class" : "sans"}},
         "このページの構成を解説します｡",
         "トップページにもあった通り､ipinfo.ioというものを用いて､<br>IPアドレスというものを取得しています｡<br>ここで重要なのはIPアドレスの意味ではなく､<br>PCによって(?)それぞれ違う値になっていることです｡<br>この性質によって､見る人によっては<br>違う文章が出るようになっています｡(正しい使い方ではない)",
-        "具体的な実装は､現在のIPアドレス(<code>?_IP</code>)の数を､<br>16などで割った余りによって文章や単語を変化させています｡<br>下のemulate欄に､<code>15.0.0.0</code>などを入れるとわかりやすいです｡",
+        "具体的な実装は､現在のIPアドレス(<code>?_IP</code>)の数を､<br>4で割った商や余りで､文章や単語を4通りに変化させています｡<br>下のemulate欄に､<code>15.0.0.0</code>などを入れるとわかりやすいです｡",
         "単語1 : <span class=\"edited\" title=\"vary\">?_w1</span>([1, 2, 3, 4]のどれか), 単語2 : <span class=\"edited\" title=\"vary\">?_w2</span>([A, B, C, D]のどれか)",
         {"type" : "end", "tag" : "div"}
       ]
