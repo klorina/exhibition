@@ -22,6 +22,7 @@ const input = param.get("input") || "あ"
 const SMet = StrMetr(input)
 const duration = param.get("duration") || 3
 
+document.title = input.replaceAll("<br>", " ")
 cont.innerHTML = input
 cont.style.setProperty("--duration", duration + "s")
 
