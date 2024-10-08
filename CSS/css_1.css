@@ -1,0 +1,73 @@
+body {
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.disp {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.big {
+  max-width: 100%;
+  max-height: 100%;
+  --font-size: 100px; /* JavaScriptのsetPropertyで動的に変える */
+  font-size: var(--font-size);
+  text-overflow: clip;
+  text-align: center;
+  line-height: 1;
+}
+.rainbow {
+  background: linear-gradient(to right, #F00, #FF0, #0F0, #0FF, #00F, #F0F, #F00, #FF0, #0F0, #0FF, #00F, #F0F, #F00);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: Rb linear infinite normal;
+  --duration: 3s;
+  animation-duration: var(--duration);
+}
+@keyframes Rb {
+  0%   {
+    background-position:   0% 0%;
+  }
+  100%  {
+    background-position: 100% 0%;
+  }
+}
+canvas.dummy {
+  visibility: hidden;
+  position: absolute;
+}
+footer {
+  position: absolute;
+  padding: 5px;
+  bottom: 0px;
+  width: 100vw;
+  height: 15vh;
+  border-left:  gray 2px solid;
+  border-right: gray 2px solid;
+  border-top:   gray 2px solid;
+  border-radius: 10px 10px 0px 0px;
+  background-color: whitesmoke;
+  opacity: 0%;
+}
+footer:hover {
+  animation: fadein 0.5s ease-out forwards;
+}
+@keyframes fadein {
+  0%   {
+    opacity:   0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+input.num {
+  width: 4em;
+}
